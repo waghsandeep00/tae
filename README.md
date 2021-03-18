@@ -1,1 +1,2 @@
-# Python_UI_Automation
+# python-web-automation
+This is python + pytest bases web automation framework
