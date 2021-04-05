@@ -1,0 +1,15 @@
+<env>
+    <TestCase1>
+        <parameter name="firstName" value="Suresh"/>
+        <parameter name="LastName" value="Mehta"/>
+        <parameter name="age" value="32"/>
+    </TestCase1>
+    <TestCase2>
+        <parameter name="Designation" value="Manager"/>
+        <parameter name="Location" value="Banglore"/>
+    </TestCase2>
+    <TestCase3>
+        <parameter name="Designation" value="Tester"/>
+        <parameter name="Location" value="Pune"/>
+    </TestCase3>
+</env>

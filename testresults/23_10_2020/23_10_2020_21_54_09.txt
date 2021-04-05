@@ -1,0 +1,28 @@
+Application details:http://automationpractice.com/index.php
+------------------------------------------------------------------
+Test Case Name : test_createAccount
+Click to //a[contains(text(),'Sign in')]
+Enter value : email_create value :Test23User20@qa.com
+Click to SubmitCreate
+Click to //label[contains(.,'Mrs.')]//parent::div//input
+Enter value : customer_firstname value :Aarya
+Enter value : customer_lastname value :Morche
+Enter value : passwd value :Admin1
+Selected DropDown daysAnd Value 2Selected
+Selected DropDown monthsAnd Value 9Selected
+Selected DropDown yearsAnd Value 1986Selected
+Click to //label[contains(text(),'Sign up for our newsletter!')]//parent::div//input
+Click to //label[contains(text(),'Receive special offers from our partners!')]//parent::div//input
+Enter value : company value :Globant
+Enter value : address1 value :Address1
+Enter value : address2 value :Address2
+Enter value : city value :Pune
+Selected DropDown id_stateAnd ValueNew JerseySelected
+Enter value : postcode value :12345
+Selected DropDown id_countryAnd ValueUnited StatesSelected
+Click to other
+Enter value : other value :testing
+Enter value : phone value :1234567890
+Enter value : phone_mobile value :0987654321
+Click to //span[text()='Register']//parent::button
+Click to Sign out

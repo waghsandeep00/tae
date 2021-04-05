@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: element is not present",
+      "children" : [ {
+        "name" : "test_login[test_loginMulUsers1]",
+        "uid" : "df6eed8d986c98ec",
+        "parentUid" : "a8502466f45818d9d823e1f3aa0f9e43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603026942007,
+          "stop" : 1603027017574,
+          "duration" : 75567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'Test7User7@qa.com', 'pwd': 'Admin2'}" ]
+      }, {
+        "name" : "test_createAccount",
+        "uid" : "894fabee8ba4b179",
+        "parentUid" : "a8502466f45818d9d823e1f3aa0f9e43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603027046125,
+          "stop" : 1603027119875,
+          "duration" : 73750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8502466f45818d9d823e1f3aa0f9e43"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

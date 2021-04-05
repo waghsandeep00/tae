@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login[test_loginMulUsers0]",
+    "uid" : "1becd2c645417cc3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1603026917654,
+      "stop" : 1603026935925,
+      "duration" : 18271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'username': 'Test7User7@qa.com', 'pwd': 'Admin1'}" ]
+  }, {
+    "name" : "test_login[test_loginMulUsers1]",
+    "uid" : "df6eed8d986c98ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1603026942007,
+      "stop" : 1603027017574,
+      "duration" : 75567
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'username': 'Test7User7@qa.com', 'pwd': 'Admin2'}" ]
+  }, {
+    "name" : "test_loginwithUtils",
+    "uid" : "45be1ee2751fe07b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1603027023782,
+      "stop" : 1603027040058,
+      "duration" : 16276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_createAccount",
+    "uid" : "894fabee8ba4b179",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1603027046125,
+      "stop" : 1603027119875,
+      "duration" : 73750
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

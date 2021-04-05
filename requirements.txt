@@ -1,3 +1,4 @@
+psutil
 allure-pytest==2.8.18
 allure-python-commons==2.8.18
 astroid==2.4.2
@@ -11,7 +12,7 @@ idna==2.10
 importlib-metadata==2.0.0
 iniconfig==1.1.1
 isort==5.6.4
-lazy-object-proxy==1.4.3
+lazy-object-proxy==1.5.1
 mccabe==0.6.1
 packaging==20.4
 pluggy==0.13.1
@@ -27,7 +28,9 @@ selenium==3.141.0
 six==1.15.0
 toml==0.10.1
 typed-ast==1.4.1
-urllib3==1.25.10
+urllib3==1.25.11
 webdriver-manager==3.2.2
 wrapt==1.12.1
 zipp==3.3.1
+xmltodict==0.12.0
+

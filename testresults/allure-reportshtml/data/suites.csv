@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Oct 18 18:47:26 IST 2020","Sun Oct 18 18:48:39 IST 2020","73750","AppTests","test_web","TestWeb","","","test_createAccount",""
+"passed","Sun Oct 18 18:45:17 IST 2020","Sun Oct 18 18:45:35 IST 2020","18271","AppTests","test_web","TestWeb","","","test_login[test_loginMulUsers0]",""
+"passed","Sun Oct 18 18:47:03 IST 2020","Sun Oct 18 18:47:20 IST 2020","16276","AppTests","test_web","TestWeb","","","test_loginwithUtils",""
+"broken","Sun Oct 18 18:45:42 IST 2020","Sun Oct 18 18:46:57 IST 2020","75567","AppTests","test_web","TestWeb","","","test_login[test_loginMulUsers1]",""

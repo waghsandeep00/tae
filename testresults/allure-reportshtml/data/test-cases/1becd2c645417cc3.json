@@ -1,0 +1,168 @@
+{
+  "uid" : "1becd2c645417cc3",
+  "name" : "test_login[test_loginMulUsers0]",
+  "fullName" : "AppTests.test_web.TestWeb#test_login",
+  "historyId" : "16319aa39f212ba4f2db085a1c79484c",
+  "time" : {
+    "start" : 1603026917654,
+    "stop" : 1603026935925,
+    "duration" : 18271
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_loginMulUsers",
+    "time" : {
+      "start" : 1603026917647,
+      "stop" : 1603026917651,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5834f21535264ed",
+      "name" : "e143b71e-8366-4cd3-9136-e4a664e14f51-attachment.attach",
+      "source" : "5834f21535264ed.attach",
+      "type" : "text/plain",
+      "size" : 96
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1603026913963,
+      "stop" : 1603026917644,
+      "duration" : 3681
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1603026917644,
+      "stop" : 1603026917646,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aac00d8e68c421bf",
+      "name" : "8a19d209-b6e6-41ae-8ac7-3e84f2a24e49-attachment.attach",
+      "source" : "aac00d8e68c421bf.attach",
+      "type" : "text/plain",
+      "size" : 42
+    }, {
+      "uid" : "287be262fb20cfeb",
+      "name" : "stdout",
+      "source" : "287be262fb20cfeb.txt",
+      "type" : "text/plain",
+      "size" : 76
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "test_loginMulUsers::0",
+    "time" : {
+      "start" : 1603026935926,
+      "stop" : 1603026935926,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_setup::0",
+    "time" : {
+      "start" : 1603026935930,
+      "stop" : 1603026938270,
+      "duration" : 2340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_setup', 'test_data')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "AppTests"
+  }, {
+    "name" : "suite",
+    "value" : "test_web"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWeb"
+  }, {
+    "name" : "host",
+    "value" : "IN-IT2755"
+  }, {
+    "name" : "thread",
+    "value" : "19920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "AppTests.test_web"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_loginMulUsers",
+    "value" : "{'username': 'Test7User7@qa.com', 'pwd': 'Admin1'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('test_setup', 'test_data')" ]
+  },
+  "source" : "1becd2c645417cc3.json",
+  "parameterValues" : [ "{'username': 'Test7User7@qa.com', 'pwd': 'Admin1'}" ]
+}
