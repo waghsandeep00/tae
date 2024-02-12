@@ -37,8 +37,8 @@ class LoadDriver(object):
         return fun()
 
     def chrome(self):
-        # driverobject = webdriver.Chrome(executable_path= self.parent_directory +"\\chromedriver.exe");
-        driverobject = webdriver.Chrome(ChromeDriverManager().install())
+        driverobject = webdriver.Chrome(executable_path= self.parent_directory +"\\chromedriver.exe");
+        # driverobject = webdriver.Chrome(ChromeDriverManager().install())
         return driverobject
 
     def edge(self):

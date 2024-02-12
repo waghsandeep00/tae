@@ -1,8 +1,9 @@
 from locators.base_page_locators import BasePageLocator
 
+
 class LoginPageLocator(BasePageLocator):
 
-       SINGINBUTTON = "//a[contains(text(),'Sign in')]"
+       SINGINBUTTON = "//button[.//div[contains(text(),'How it works')]]"
        USERNAME = "email"
        PASSWORD= "passwd"
        SUBMITLOGINBUTTON = "SubmitLogin"

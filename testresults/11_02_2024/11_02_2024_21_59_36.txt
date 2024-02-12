@@ -1,0 +1,7 @@
+Application details:http://automationpractice.com/index.php
+------------------------------------------------------------------
+Test Case Name : test_login
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Test Case Name : test_login

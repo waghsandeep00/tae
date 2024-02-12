@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import Select
 from webdriver.logger_page import LoggerClass
 
+
 class WebdriverBasePage(object):
     filepath = ""
 
@@ -274,7 +275,7 @@ class WebdriverBasePage(object):
             page_state = self.driver.execute_script('return document.readyState;')
             time.sleep(3)
             if(page_state == 'complete'):
-                break;
+                break
 
 
 
