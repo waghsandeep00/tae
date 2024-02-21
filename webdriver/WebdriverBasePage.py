@@ -2,7 +2,7 @@ import time
 
 import pytest
 import selenium.webdriver.support.wait as wait
-from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import WebDriverException, ElementNotVisibleException, NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
@@ -27,6 +27,10 @@ class WebdriverBasePage(object):
         self.web_driver_wait.until(
             expected_conditions.presence_of_element_located((byelement, byindentifier)), "element is not present")
 
+    def waitUntilAlertPresent(self):
+        self.web_driver_wait = wait.WebDriverWait(self.driver, 30)
+        self.web_driver_wait.until(
+            expected_conditions.alert_is_present(), "element is not present")
     def entertext(self, byelement, byindentifier, mvalue):
         try:
             self.elementWaitCondition(byelement, byindentifier)
@@ -46,6 +50,32 @@ class WebdriverBasePage(object):
             element.click()
             LoggerClass.writeFile(self.filepath,
                                   "\nClick to " + byindentifier)
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
+    def collectvalues(self, byelement, byindentifier):
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            element = self.driver.find_elements(by=byelement, value=byindentifier)
+            for ele in element:
+                print(ele.text)
+                if ele.text == "Owner":
+                    ele.click()
+                    break
+            LoggerClass.writeFile(self.filepath,
+                              "\nSubmit to " + byindentifier)
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
+    def gettext(self, byelement, byindentifier):
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            ele = self.driver.find_element(by=byelement, value=byindentifier)
+            LoggerClass.writeFile(self.filepath,
+                                  "\ngettext to " + byindentifier)
+
         except WebDriverException as e:
             LoggerClass.writeFile(self.filepath, "\n" + e.msg)
             raise e
@@ -82,23 +112,18 @@ class WebdriverBasePage(object):
 
     def isElementPresent(self, byelement, byindentifier):
         try:
-            isElementPresent = False
             self.elementWaitCondition(byelement, byindentifier)
-            if len(self.driver.find_elements(by=byelement, value=byindentifier)) > 0:
-                isElementPresent = True
-            else:
-                isElementPresent = False
+            element = self.driver.find_element(by=byelement, value=byindentifier)
+            element.click()
 
-            return isElementPresent
-        except WebDriverException as e:
-            raise e
+        except WebDriverException:
+            pass
 
     def isElementEnabled(self, byelement, byindentifier):
         try:
-            isElementEnabled = False
             self.elementWaitCondition(byelement, byindentifier)
             isElementEnabled = self.driver.find_element(by=byelement, value=byindentifier).is_enabled()
-            return isElementEnabled;
+            return isElementEnabled
         except WebDriverException as e:
             raise e
 
@@ -225,9 +250,12 @@ class WebdriverBasePage(object):
             LoggerClass.writeFile(self.filepath, "\n" + e.msg)
             raise e
 
-    def scrollToView(self):
+    def scrollToView(self, byelement, byindentifier):
         try:
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            self.elementWaitCondition(byelement, byindentifier)
+            element = self.driver.find_element(by=byelement, value=byindentifier)
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);", element)
+            self.driver.execute_script("arguments[0].click();", element)
         except WebDriverException as e:
             raise e
 

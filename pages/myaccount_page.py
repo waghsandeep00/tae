@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from pages.housing_pages.base_page import BasePage
 from locators import myaccount_page_locators
 
 class MyAccountPage(BasePage):

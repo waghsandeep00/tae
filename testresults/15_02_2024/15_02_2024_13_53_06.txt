@@ -1,0 +1,8 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_testmonial1
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'css-175lis2') and .//text()='I bought the premium plus package to sell my property. I got so many buyers that I could easily finalize the deal at high profit']"}
+  (Session info: chrome=120.0.6099.225)
+Test Case Failedno such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'css-175lis2') and .//text()='I bought the premium plus package to sell my property. I got so many buyers that I could easily finalize the deal at high profit']"}
+  (Session info: chrome=120.0.6099.225)
+------------------------------------------------------------------

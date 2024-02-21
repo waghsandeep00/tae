@@ -1,0 +1,6 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_login
+Click to //button[.//div[contains(text(),'How it works')]]
+Test Case Name : test_login
+Click to //button[.//div[contains(text(),'How it works')]]

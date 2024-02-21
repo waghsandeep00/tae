@@ -24,6 +24,7 @@ def driver_get(request):
     for item in session.items:
         cls = item.getparent(pytest.Class)
         setattr(cls.obj, "driver", driver)
+    driver.maximize_window()
     yield
     driver.close()
     driver.quit()

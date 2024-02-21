@@ -5,7 +5,7 @@ import pytest
 from webdriver.logger_page import LoggerClass
 
 
-@pytest.mark.usefixtures("driver_get", "create_logger_file", "test_data","test_XML_data")
+@pytest.mark.usefixtures("driver_get", "create_logger_file", "test_data", "test_XML_data")
 class BaseTest:
 
     def getData(self, name):

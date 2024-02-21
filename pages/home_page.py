@@ -4,7 +4,7 @@ This module keeps home page POM
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from locators import home_page_locators
-from .base_page import BasePage
+from pages.housing_pages.base_page import BasePage
 
 class HomePage(BasePage):  # pylint: disable=too-few-public-methods
 

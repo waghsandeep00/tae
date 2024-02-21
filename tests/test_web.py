@@ -1,6 +1,6 @@
 import pytest
 from selenium.common.exceptions import WebDriverException
-from pages.login_page import LoginPage
+from pages.housing_pages.login_page import LoginPage
 from tests.basetest import BaseTest
 from utils.ConfigReaderUtil import ConfigReaderUtil
 

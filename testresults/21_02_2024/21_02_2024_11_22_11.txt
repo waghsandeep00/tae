@@ -1,0 +1,12 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_PropertyDetailProgress
+Submit to toggle-label
+Click to //*[@id='app-root']/div/div/div/div[2]/div/div[2]/div/div[2]/button
+Enter value : //input[@type='tel'] value :9552312095
+Enter value : //input[@type='text'] value :Sandeep wagh
+element click intercepted: Element <div class="property-type-label">...</div> is not clickable at point (524, 276). Other element would receive the click: <div class="css-1dansbc">...</div>
+  (Session info: chrome=120.0.6099.225)
+Test Case Failedelement click intercepted: Element <div class="property-type-label">...</div> is not clickable at point (524, 276). Other element would receive the click: <div class="css-1dansbc">...</div>
+  (Session info: chrome=120.0.6099.225)
+------------------------------------------------------------------

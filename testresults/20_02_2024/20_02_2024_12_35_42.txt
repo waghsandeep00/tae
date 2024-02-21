@@ -1,0 +1,10 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_verifyprofile
+Enter value : //input[@type='tel'] value :9552312095
+Click to //button[@class='new-btn secondary  login large']
+Enter value : //input[@type='password'] value :Tiger@0073
+Click to //button[@class='new-btn secondary  login large']
+Test Case Failedno such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(string(), 'Sandeep wagh')][@class='profile-card--details--name inspectlet-sensitive']"}
+  (Session info: chrome=120.0.6099.225)
+------------------------------------------------------------------
