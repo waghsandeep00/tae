@@ -24,6 +24,7 @@ class Test_login(BaseTest):
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)
             raise e
+# Back dated method not using now 13/03/2024
 
     @pytest.mark.beforelogin
     def test_role(self, getlogindata):
@@ -31,8 +32,8 @@ class Test_login(BaseTest):
             logPage = LoginPage(self.driver, self.filePath)
             logPage.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
             logPage.formAlert()
-            logPage.getAllRole()
-            logPage.getSubmitRole()
+            roles = logPage.getAllRole()
+            print("Collect the roles of application 'Owner' and Broker'")
 
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)
@@ -43,24 +44,64 @@ class Test_login(BaseTest):
         try:
             logPage = LoginPage(self.driver, self.filePath)
             self.test_role(getlogindata)
-            logPage.getGoBack()
-            print("Go to back url verified")
+            logPage.clickToLginHere()
+            print("Login page navigation verified")
 
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)
             raise e
 
+    # The flow changes if application so wont able to run the script
     @pytest.mark.order(5)
-    def test_formSubmission(self, getlogindata):
+    def test_login(self, getlogindata):
+        try:
+            logPage = LoginPage(self.driver, self.filePath)
+            logPage.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
+            logPage.formAlert()
+            logPage.clickToLginHere()
+            logPage.enterUserName(getlogindata["uname"])
+            logPage.clickToContinue()
+            logPage.enterPassword(getlogindata["pass"])
+            logPage.clickToSubmit()
+            print("Login page verified by taking test data from fixture method")
+
+        except WebDriverException as e:
+            BaseTest.take_screenshot(self, e.msg)
+            raise e
+    # facing google security so wont able to run script
+
+    @pytest.mark.order(5)
+    @pytest.mark.parametrize("test_loginMulUsers", [
+        {"username": "9552312095", "pwd": "Tiger@0073"},
+        {"username": "9552312095", "pwd": "Tiger@7300"}], indirect=True)
+    # This parameter we can take from fixture
+    def test_loginWithMulUsers(self, test_loginMulUsers):
+        try:
+            name, pwd = test_loginMulUsers
+            logPage = LoginPage(self.driver, self.filePath)
+            logPage.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
+            logPage.formAlert()
+            logPage.clickToLginHere()
+            logPage.enterUserName(name)
+            logPage.clickToContinue()
+            logPage.enterPassword(pwd)
+            logPage.clickToSubmit()
+            print("Login page verified by taking multiple users data")
+        except WebDriverException as e:
+            BaseTest.take_screenshot(self, e.msg)
+            raise e
+
+    def test_loginWithConfig(self):
         try:
             logPage = LoginPage(self.driver, self.filePath)
             logPage.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
     #        logPage.formAlert()
-            logPage.clickOnLginHere()
-            logPage.enterUserName(getlogindata["uname"])
-            logPage.clickOnContinue()
-            logPage.enterPassword(getlogindata["pass"])
-            logPage.clickOnSubmit()
+            logPage.clickToLginHere()
+            logPage.enterUserName(ConfigReaderUtil.get_env_value('userName'))
+            logPage.clickToContinue()
+            logPage.enterPassword(ConfigReaderUtil.get_env_value('passWord'))
+            logPage.clickToSubmit()
+            print("Login page verified by taking test data from config file")
 
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)
@@ -68,7 +109,7 @@ class Test_login(BaseTest):
 
     def test_verifyprofile(self, getlogindata):
         try:
-            self.test_formSubmission(getlogindata)
+            self.test_login(getlogindata)
             profilePageObject = loginprofile(self.driver, self.filePath)
             verifyname = profilePageObject.verifyUserName()
             assert (getlogindata["userfullname"] in verifyname)
@@ -76,7 +117,22 @@ class Test_login(BaseTest):
             assert (getlogindata["uname"] in verifymonumber)
             verifyemail = profilePageObject.verifyEmail()
             assert (getlogindata["Email"] in verifyemail)
+            print("After login verified the user profile data")
 
+        except WebDriverException as e:
+            BaseTest.take_screenshot(self, e.msg)
+            raise e
+
+    def test_signinwithgmail(self):
+        try:
+            logPage = LoginPage(self.driver, self.filePath)
+            logPage.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
+            logPage.clickBroker()
+            logPage.clickToGmailButton()
+            logPage.enterEmail(ConfigReaderUtil.get_env_value('email'))
+            logPage.clickNext()
+        #    logPage.enterPassword(ConfigReaderUtil.get_env_value('passWord'))
+            print("Login with gmail by switching window verified")
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)
             raise e

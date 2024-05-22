@@ -1,0 +1,4 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_loginWithFixture
+Enter value : //input[@type='tel'] value :Test7User7@qa.com

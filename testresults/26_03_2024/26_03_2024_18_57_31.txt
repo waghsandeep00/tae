@@ -1,0 +1,4 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : testgetlog
+Test Case Name : testgetlog

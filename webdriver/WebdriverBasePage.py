@@ -7,6 +7,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import Select
+
+from tests.testdata.test_data_login import login_data
 from webdriver.logger_page import LoggerClass
 
 
@@ -27,13 +29,32 @@ class WebdriverBasePage(object):
         self.web_driver_wait.until(
             expected_conditions.presence_of_element_located((byelement, byindentifier)), "element is not present")
 
+    def windowswait(self, byelement, byindentifier):
+        self.web_driver_wait = wait.WebDriverWait(self.driver, 10)
+        self.web_driver_wait.until(expected_conditions.number_of_windows_to_be(2))
+        google_window_handle = self.driver.window_handles[-1]
+        self.driver.switch_to.window(google_window_handle)
+
     def waitUntilAlertPresent(self):
         self.web_driver_wait = wait.WebDriverWait(self.driver, 30)
         self.web_driver_wait.until(
             expected_conditions.alert_is_present(), "element is not present")
+
     def entertext(self, byelement, byindentifier, mvalue):
         try:
             self.elementWaitCondition(byelement, byindentifier)
+            element = self.driver.find_element(by=byelement, value=byindentifier)
+            element.clear()
+            element.send_keys(mvalue)
+            LoggerClass.writeFile(self.filepath,
+                                  "\nEnter value : " + byindentifier + " value :" + mvalue)
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
+    def enterinnewwindow(self, byelement, byindentifier, mvalue):
+        try:
+            self.windowswait(byelement, byindentifier)
             element = self.driver.find_element(by=byelement, value=byindentifier)
             element.clear()
             element.send_keys(mvalue)
@@ -59,8 +80,23 @@ class WebdriverBasePage(object):
             self.elementWaitCondition(byelement, byindentifier)
             element = self.driver.find_elements(by=byelement, value=byindentifier)
             for ele in element:
-                print(ele.text)
+                print("Found roles:", ele.text)
                 if ele.text == "Owner":
+                    ele.click()
+                    break
+            LoggerClass.writeFile(self.filepath,
+                              "\nSubmit to " + byindentifier)
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
+    def dropdownMatch(self, byelement, byindentifier, getlogindata):
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            element = self.driver.find_elements(by=byelement, value=byindentifier)
+            for ele in element:
+                print(ele.text)
+                if ele.text == getlogindata['SelectBuilding']:
                     ele.click()
                     break
             LoggerClass.writeFile(self.filepath,
@@ -106,9 +142,24 @@ class WebdriverBasePage(object):
     def driverquit(self):
         self.driver.quit()
 
-    def pressTab(self):
+    def pressTab(self, byelement, byindentifier):
+        element1 = self.driver.find_element(by=byelement, value=byindentifier)
         action = ActionChains(self.driver)
-        action.send_keys(Keys.TAB)
+        element1.action.send_keys(Keys.TAB)
+
+    def pressEnter(self, byelement, byindentifier):
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            element1 = self.driver.find_element(by=byelement, value=byindentifier)
+            action = ActionChains(self.driver)
+            # action.send_keys(Keys.ENTER), element1
+            action.move_to_element(element1).click().perform()
+
+            LoggerClass.writeFile(self.filepath,
+                          "\nSelected DropDown " + byindentifier + "Selected")
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
 
     def isElementPresent(self, byelement, byindentifier):
         try:
@@ -295,6 +346,18 @@ class WebdriverBasePage(object):
             LoggerClass.writeFile(self.filepath, "\n" + e.msg)
             raise e
 
+    def checkBox(self, byelement, byindentifier):
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            element1 = self.driver.find_element(by=byelement, value=byindentifier)
+            if not element1.is_selected():
+                element1.click()
+            LoggerClass.writeFile(self.filepath,
+                                  "\nSelected DropDown " + byindentifier + "Check box selected")
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
     def back(self):
         self.driver.back()
 
@@ -305,5 +368,8 @@ class WebdriverBasePage(object):
             if(page_state == 'complete'):
                 break
 
+    @pytest.fixture(params=login_data.test_login_Data)
+    def getlogindata(self, request):
+        return request.param
 
 

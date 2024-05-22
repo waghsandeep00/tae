@@ -2,7 +2,7 @@ from locators.base_page_locators import BasePageLocator
 
 
 class HomePageLocator(BasePageLocator):
-
+    MOBILE = "//a[@class='css-gyp80y' and text()='9643084308']"
     HOW_IT_WORKS = "//button[.//div[contains(text(),'How it works')]]"
     FAQS = "//button[.//div[contains(text(),'FAQs')]]"
     TESTOMONIAL_DESCRIPTION = "//div[contains(@class, 'css-175lis2') and .//text()='I bought the premium plus " \

@@ -21,6 +21,10 @@ class ResidentialPage(BasePage):
         BasePage.isElementEnabled(self, By.XPATH, self.locator.RENT)
         return self
 
+    def clickSell(self):
+        BasePage.click(self, By.XPATH, self.locator.SELL)
+        return self
+
     def getMobileNumber(self, mobile):
         BasePage.entertext(self, By.XPATH, self.locator.ENTER_MOBILE, mobile)
         return self
@@ -45,4 +49,58 @@ class ResidentialPage(BasePage):
 
     def clickOnAppartment(self):
         BasePage.click(self, By.XPATH, self.locator.APARTMENT)
+        return self
+
+    def eneterBuiiding(self, build):
+        BasePage.entertext(self, By.XPATH, self.locator.BUILDING, build)
+        return self
+
+    def clickEnter(self):
+        BasePage.pressEnter(self, By.XPATH, self.locator.MOVETOBUILDING)
+        return self
+
+    def eneterLocality(self, loca):
+        BasePage.entertext(self, By.XPATH, self.locator.LOCALITY, loca)
+        return self
+
+    def pressEnter(self):
+        BasePage.pressEnter(self, By.XPATH, self.locator.MOVETOLOCALITY)
+        return self
+
+    def enterBHK(self):
+        BasePage.click(self, By.XPATH, self.locator.BHK)
+        return self
+
+    def enterBuildUpArea(self, area):
+        BasePage.entertext(self, By.XPATH, self.locator.BUILDUP, area)
+        return self
+
+    def selectFurnishType(self):
+        BasePage.click(self, By.XPATH, self.locator.FURNISHTYPE)
+
+    def selectCheckBox(self):
+        BasePage.checkBox(self, By.XPATH, self.locator.CHECKBOX)
+        return self
+
+    def clickOnNext(self):
+        BasePage.click(self, By.XPATH, self.locator.NEXTBUTTON)
+        return self
+
+    def verifycompletedlabel(self):
+        return self.driver.find_element(By.XPATH, self.locator.PROPERTYCOMPLETED).text
+
+    def enterMonthlyRent(self, monthrent):
+        BasePage.entertext(self, By.XPATH, self.locator.MONTHLYRENT, monthrent)
+        return self
+
+    def clickAvailableFrom(self):
+        BasePage.click(self, By.XPATH, self.locator.AVAILABLEFROM)
+        return self
+
+    def clickSelectDate(self):
+        BasePage.click(self, By.XPATH, self.locator.DATE)
+        return self
+
+    def clickSecurityDeposite(self):
+        BasePage.click(self, By.XPATH, self.locator.SECURITYDEPOSIT)
         return self

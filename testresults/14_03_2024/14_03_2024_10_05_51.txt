@@ -1,0 +1,6 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_verifycommercial
+Click to //div[@class='toggle-label'][text()='Commercial']
+Enter value : //input[@type='tel'] value :9212323232
+Enter value : //input[@type='text'] value :Admin1

@@ -1,0 +1,205 @@
+1711601825565	geckodriver	INFO	Listening on 127.0.0.1:50529
+1711601828600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofilethfdsd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711601829398	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711601829523	Marionette	INFO	Listening on port 50541
+Read port: 50541
+1711601829758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711601839574	Marionette	INFO	Stopped listening on port 50541
+Dynamically enable window occlusion 1
+1711602111574	geckodriver	INFO	Listening on 127.0.0.1:52541
+1711602114625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofilejdFuqt"
+1711602149902	geckodriver	INFO	Listening on 127.0.0.1:52613
+1711602152945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofilecDeH8M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711602153610	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711602153703	Marionette	INFO	Listening on port 52637
+Read port: 52637
+1711602153962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711602164534	Marionette	INFO	Stopped listening on port 52637
+Dynamically enable window occlusion 1
+1711602361503	geckodriver	INFO	Listening on 127.0.0.1:57090
+1711602364543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileqa8tf9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711602365189	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711602365291	Marionette	INFO	Listening on port 57101
+Read port: 57101
+1711602365511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711602375615	Marionette	INFO	Stopped listening on port 57101
+JavaScript warning: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.YWYzGGLIqSY.es5.O/am=wA/d=1/rs=AOaEmlFLu8pStOSYogOf0Eca3BWBVv15-Q/m=base, line 125: Script terminated by timeout at:
+Yf.prototype.D@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.YWYzGGLIqSY.es5.O/am=wA/d=1/rs=AOaEmlFLu8pStOSYogOf0Eca3BWBVv15-Q/m=base:125:660
+
+Dynamically enable window occlusion 1
+1711602411978	geckodriver	INFO	Listening on 127.0.0.1:53883
+1711602414988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofilerdSu0F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711602415599	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711602415692	Marionette	INFO	Listening on port 53895
+Read port: 53895
+1711602415917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711602445905	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://assets-0.housingcdn.com/seller/app.b3470bebf244679e7bcf.js, line 2: Script terminated by timeout at:
+s@https://assets-0.housingcdn.com/seller/app.b3470bebf244679e7bcf.js:2:55361
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.VrlT2IzrFo0.es5.O/ck=boq-identity.AccountsSignInUi.ZTyBF7TgLiE.L.F4.O/am=P8AiOhwLgBhxHvgARYGQAQAAAAAAAAAAawCbAQ/d=1/exm=AvtSve,CMcBD,E87wgc,EFQ78c,Fndnac,I6YDgd,IZT63,K0PMbc,K1ZKnb,KUM7Z,L1AAkb,L9OGUe,LDQI,LEikZe,MpJwZc,NOeYWe,O6y8ed,PHUIyb,PrPYRd,Rkm0ef,SCuOPb,SD8Jgb,STuCOe,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,YHI3We,YTxL4,YgOFye,_b,_tp,aC1iue,aW3pY,b3kMqb,bSspM,bTi8wc,byfTOb,eS2ylb,eVCnO,f8Gu1e,hc6Ubd,inNHtf,lsjVmc,ltDFwf,lwddkf,mvkUhe,n73qwf,njlZCf,oLggrd,pxq3x,qPYxq,qPfo0c,qmdT9,rmumx,siKnQd,soHxf,t2srLd,tUnxGc,vHEMJe,vfuNJf,ws9Tlc,xBaz7b,xQtZb,xiZRqc,yRXbo,ywOR5c,zbML3c,ziZ8Mc,zr1jrb,zu7j8,zy0vNb/excm=_b,_tp,identifierview/ed=1/wt=2/ujg=1/rs=AOaEmlGg7PvmE1itFzlqET-k6GvJNnAntw/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:NoODMc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:XVMNvd;Me32dd:MEeYgc;NPKaK:PVlQOd;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;UpnZUd:nnwwYc;XdiAjb:NLiXbe;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:vfuNJf;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:NTMZac;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:siKnQd;yxTchf:KUM7Z/m=RqjULd, line 18: Script terminated by timeout at:
+e@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.VrlT2IzrFo0.es5.O/ck=boq-identity.AccountsSignInUi.ZTyBF7TgLiE.L.F4.O/am=P8AiOhwLgBhxHvgARYGQAQAAAAAAAAAAawCbAQ/d=1/exm=AvtSve,CMcBD,E87wgc,EFQ78c,Fndnac,I6YDgd,IZT63,K0PMbc,K1ZKnb,KUM7Z,L1AAkb,L9OGUe,LDQI,LEikZe,MpJwZc,NOeYWe,O6y8ed,PHUIyb,PrPYRd,Rkm0ef,SCuOPb,SD8Jgb,STuCOe,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,YHI3We,YTxL4,YgOFye,_b,_tp,aC1iue,aW3pY,b3kMqb,bSspM,bTi8wc,byfTOb,eS2ylb,eVCnO,f8Gu1e,hc6Ubd,inNHtf,lsjVmc,ltDFwf,lwddkf,mvkUhe,n73qwf,njlZCf,oLggrd,pxq3x,qPYxq,qPfo0c,qmdT9,rmumx,siKnQd,soHxf,t2srLd,tUnxGc,vHEMJe,vfuNJf,ws9Tlc,xBaz7b,xQtZb,xiZRqc,yRXbo,ywOR5c,zbML3c,ziZ8Mc,zr1jrb,zu7j8,zy0vNb/excm=_b,_tp,identifierview/ed=1/wt=2/ujg=1/rs=AOaEmlGg7PvmE1itFzlqET-k6GvJNnAntw/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:NoODMc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:XVMNvd;Me32dd:MEeYgc;NPKaK:PVlQOd;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;UpnZUd:nnwwYc;XdiAjb:NLiXbe;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:vfuNJf;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:NTMZac;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:siKnQd;yxTchf:KUM7Z/m=RqjULd:18:33
+eDa/<@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.VrlT2IzrFo0.es5.O/ck=boq-identity.AccountsSignInUi.ZTyBF7TgLiE.L.F4.O/am=P8AiOhwLgBhxHvgARYGQAQAAAAAAAAAAawCbAQ/d=1/exm=AvtSve,CMcBD,E87wgc,EFQ78c,Fndnac,I6YDgd,IZT63,K0PMbc,K1ZKnb,KUM7Z,L1AAkb,L9OGUe,LDQI,LEikZe,MpJwZc,NOeYWe,O6y8ed,PHUIyb,PrPYRd,Rkm0ef,SCuOPb,SD8Jgb,STuCOe,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,YHI3We,YTxL4,YgOFye,_b,_tp,aC1iue,aW3pY,b3kMqb,bSspM,bTi8wc,byfTOb,eS2ylb,eVCnO,f8Gu1e,hc6Ubd,inNHtf,lsjVmc,ltDFwf,lwddkf,mvkUhe,n73qwf,njlZCf,oLggrd,pxq3x,qPYxq,qPfo0c,qmdT9,rmumx,siKnQd,soHxf,t2srLd,tUnxGc,vHEMJe,vfuNJf,ws9Tlc,xBaz7b,xQtZb,xiZRqc,yRXbo,ywOR5c,zbML3c,ziZ8Mc,zr1jrb,zu7j8,zy0vNb/excm=_b,_tp,identifierview/ed=1/wt=2/ujg=1/rs=AOaEmlGg7PvmE1itFzlqET-k6GvJNnAntw/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:NoODMc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:XVMNvd;Me32dd:MEeYgc;NPKaK:PVlQOd;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;UpnZUd:nnwwYc;XdiAjb:NLiXbe;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:vfuNJf;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:NTMZac;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:siKnQd;yxTchf:KUM7Z/m=RqjULd:19:30
+c@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.VrlT2IzrFo0.es5.O/ck=boq-identity.AccountsSignInUi.ZTyBF7TgLiE.L.F4.O/am=P8AiOhwLgBhxHvgARYGQAQAAAAAAAAAAawCbAQ/d=1/exm=AvtSve,CMcBD,E87wgc,EFQ78c,Fndnac,I6YDgd,IZT63,K0PMbc,K1ZKnb,KUM7Z,L1AAkb,L9OGUe,LDQI,LEikZe,MpJwZc,NOeYWe,O6y8ed,PHUIyb,PrPYRd,Rkm0ef,SCuOPb,SD8Jgb,STuCOe,SpsfSb,Tbb4sb,UUJqVe,Uas9Hd,YHI3We,YTxL4,YgOFye,_b,_tp,aC1iue,aW3pY,b3kMqb,bSspM,bTi8wc,byfTOb,eS2ylb,eVCnO,f8Gu1e,hc6Ubd,inNHtf,lsjVmc,ltDFwf,lwddkf,mvkUhe,n73qwf,njlZCf,oLggrd,pxq3x,qPYxq,qPfo0c,qmdT9,rmumx,siKnQd,soHxf,t2srLd,tUnxGc,vHEMJe,vfuNJf,ws9Tlc,xBaz7b,xQtZb,xiZRqc,yRXbo,ywOR5c,zbML3c,ziZ8Mc,zr1jrb,zu7j8,zy0vNb/excm=_b,_tp,identifierview/ed=1/wt=2/ujg=1/rs=AOaEmlGg7PvmE1itFzlqET-k6GvJNnAntw/ee=ASJRFf:DAnQ7e;Al0B8:kibjWe;DaIJ8c:iAskyc;EVNhjf:pw70Gc;EkYFhd:NoODMc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:XVMNvd;Me32dd:MEeYgc;NPKaK:PVlQOd;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SMDL4c:K0PMbc;SNUn3:ZwDk9d;UpnZUd:nnwwYc;XdiAjb:NLiXbe;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:vfuNJf;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:NTMZac;nTuGK:JKNPM;oGtAuc:sOXFj;oSUNyd:K0PMbc;oXZmbc:tUnxGc;pXdRYb:L9OGUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:siKnQd;yxTchf:KUM7Z/m=RqjULd:14:3183
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1711602541356	Marionette	INFO	Stopped listening on port 53895
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711602672844	geckodriver	INFO	Listening on 127.0.0.1:52464
+1711602675848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileBTMvAH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711602676477	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711602676571	Marionette	INFO	Listening on port 52479
+Read port: 52479
+1711602676782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711602707706	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?opparams=%253Fopenid.realm%2526ss_domain%253Dhttps%25253A%25252F%25252Fseller.housing.com&dsh=S1426741895%3A1711602685518059&client_id=1059595317196-hvv73176575ru3ep3ne1183j2bc44vjp.apps.googleusercontent.com&ddm=0&fetch_basic_profile=true&gsiwebsdk=2&include_granted_scopes=true&o2v=1&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fseller.housing.com%3Fid%3Dauth438415&response_type=permission+id_token&scope=email+profile+openid&service=lso&theme=mn&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMT2xAsO-jIpRXioI-rW_L9N-eSXlxdxMGNMvnoROjjLsSAOi95epGQu6w9TikwYJhItXmutdhH09KazJ2ykZONF8l-uoj8Ba2U-h_Tg39gmiAvZbhUcQG0pPvDEEHD4aTwUoxIyGCw5BN3bZVrpYeaCEJMfrZfSkWWgS43GbBQXZfCzgbL4kTMgrkRvciTQu2SQqU7KZAewFBnfszVmvJCmr8iw0pDOvF4NTeEbGIXrcDzFprlVummGDq62wcty6vXY7D2f_HOPjzKOXIgn4HePwzGFX08V9QO8E8XONxiNcXocjzNCNETr60CElW2snpVhXhrWpwUeg1L4RklCnCA2NmDEU9BijvGHCNpGaDfvmLcGvYkQv5zU8z-ysN311i3TU7PZJDiXcacIjRPq6Nn_BJ7K0Ufr2mj1YUVXd2iS9CPTyQaOkQivXFj-b4JfINOU9drABsg0ULzPVmWU08pSMkGnxyxJWn3T7AmybyEBDtjcKU%26flowName%3DGeneralOAuthFlow%26as%3DS1426741895%253A1711602685518059%26client_id%3D1059595317196-hvv73176575ru3ep3ne1183j2bc44vjp.apps.googleusercontent.com%26theme%3Dmn%23&app_domain=https%3A%2F%2Fseller.housing.com&rart=ANgoxcdTPkt22gxUAVPtEMwY-zhMU0KQjO6XCMXpqLPKR7Rs4pTCRQWE6LcV5Oe6tsF41EVC3qoLYMoqjeGC_ftFB-njTBNib6lJGuNxczl22Ryp7G6YK_c line 194 > injectedScript line 2 > eval line 4656 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1711614959546	geckodriver	INFO	Listening on 127.0.0.1:62576
+1711614962576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofilel7BmFU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711614963689	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711614963839	Marionette	INFO	Listening on port 62587
+Read port: 62587
+1711614964106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711614994096	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: chrome://browser/content/preferences/moreFromMozilla.js, line 83: TypeError: Region.home is null
+1711615333123	geckodriver	INFO	Listening on 127.0.0.1:55841
+1711615336155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileqn1CR2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711615337082	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711615337221	Marionette	INFO	Listening on port 55853
+Read port: 55853
+1711615337451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1711615348031	Marionette	INFO	Stopped listening on port 55853
+Dynamically enable window occlusion 1
+1711617435188	geckodriver	INFO	Listening on 127.0.0.1:49944
+1711617438209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileDGeKpp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711617439227	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711617439354	Marionette	INFO	Listening on port 49956
+Read port: 49956
+1711617439664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711617447490	Marionette	INFO	Stopped listening on port 49956
+JavaScript warning: https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js, line 2: Script terminated by timeout at:
+s@https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js:2:55495
+
+Dynamically enable window occlusion 1
+1711618041394	geckodriver	INFO	Listening on 127.0.0.1:57962
+1711618044428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileokD4CZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711618045404	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711618045520	Marionette	INFO	Listening on port 57974
+Read port: 57974
+1711618045803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711618057891	Marionette	INFO	Stopped listening on port 57974
+JavaScript warning: https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js, line 2: Script terminated by timeout at:
+s@https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js:2:55495
+
+Dynamically enable window occlusion 1
+1711618081578	geckodriver	INFO	Listening on 127.0.0.1:58068
+1711618084595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofile127NwO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711618085541	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711618085658	Marionette	INFO	Listening on port 58080
+Read port: 58080
+1711618085923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711618093097	Marionette	INFO	Stopped listening on port 58080
+JavaScript warning: https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js, line 2: Script terminated by timeout at:
+s@https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js:2:55495
+
+Dynamically enable window occlusion 1
+1711618122407	geckodriver	INFO	Listening on 127.0.0.1:58175
+1711618125387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileH5snpK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711618126343	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711618126465	Marionette	INFO	Listening on port 58190
+Read port: 58190
+1711618126728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711618133884	Marionette	INFO	Stopped listening on port 58190
+JavaScript warning: https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js, line 2: Script terminated by timeout at:
+s@https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js:2:55495
+
+Dynamically enable window occlusion 1
+1711618155996	geckodriver	INFO	Listening on 127.0.0.1:58276
+1711618159038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofilemjVQRh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711618159970	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711618160085	Marionette	INFO	Listening on port 58289
+Read port: 58289
+1711618160351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError(" is not a valid URL.", "resource://gre/modules/NetworkGeolocationProvider.sys.mjs", 499))
+console.error: (new TypeError(" is not a valid URL.", "resource://gre/modules/NetworkGeolocationProvider.sys.mjs", 499))
+Exiting due to channel error.
+1711618203375	geckodriver	INFO	Listening on 127.0.0.1:49687
+1711618206401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileZcRX49"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711618207337	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711618207451	Marionette	INFO	Listening on port 49699
+Read port: 49699
+1711618207716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError(" is not a valid URL.", "resource://gre/modules/NetworkGeolocationProvider.sys.mjs", 499))
+1711618238373	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1711618244945	Marionette	INFO	Stopped listening on port 49699
+JavaScript warning: https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js, line 2: Script terminated by timeout at:
+s@https://assets-0.housingcdn.com/seller/app.51bd114614f518f00658.js:2:55495
+
+Dynamically enable window occlusion 1
+1711618835113	geckodriver	INFO	Listening on 127.0.0.1:54886
+1711618838117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SANDEE~1.WAG\\AppData\\Local\\Temp\\rust_mozprofileiqfbKY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711618839113	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711618839236	Marionette	INFO	Listening on port 54898
+Read port: 54898
+1711618839501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError(" is not a valid URL.", "resource://gre/modules/NetworkGeolocationProvider.sys.mjs", 499))
+1711618869503	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -1,0 +1,5 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_loginWithConfig
+Enter value : //input[@type='tel'] value :9212323232
+Click to //button[@class='new-btn secondary  login large']

@@ -1,0 +1,7 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_PropertyDetailProgress
+Enter value : //input[@type='tel'] value :9552312095
+Enter value : //input[@type='text'] value :Sandeep wagh
+Click to //div[@class='property-type-label' and text()='Apartment']
+Test Case Name : test_PropertyDetailProgress

@@ -9,9 +9,17 @@ from utils.ConfigReaderUtil import ConfigReaderUtil
 
 class TestWeb(BaseTest):
 
-    @pytest.mark.parametrize("test_loginMulUsers", [
-        {"username": "Test7User7@qa.com", "pwd": "Admin1"},
-        {"username": "Test7User7@qa.com", "pwd": "Admin2"}], indirect=True)
+    def test_VerifyMobile(self, homepagetestdata):
+        try:
+            HomePageObject = HousingHomePage(self.driver, self.filePath)
+            HomePageObject.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
+            mobile = HomePageObject.verifymobile()
+            assert mobile == homepagetestdata["misscall"]
+
+        except WebDriverException as e:
+            BaseTest.take_screenshot(self, e.msg)
+            raise e
+
     def test_howitworks(self, test_loginMulUsers):
         try:
             HomePageObject = HousingHomePage(self.driver, self.filePath)

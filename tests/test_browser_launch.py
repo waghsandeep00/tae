@@ -20,3 +20,4 @@ class TestGoogle(BaseTest):
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)
         raise e
+

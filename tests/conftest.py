@@ -30,6 +30,7 @@ def driver_get(request):
     driver.quit()
 
 
+
 @pytest.fixture
 def create_logger_file(request):
     ojectLoggerClass = LoggerClass()
@@ -56,6 +57,7 @@ def get_test_data(filename):
     with open(jsonfile) as file:
         data = json.load(file)
     return data
+
 
 @pytest.fixture
 def test_XML_data(request):

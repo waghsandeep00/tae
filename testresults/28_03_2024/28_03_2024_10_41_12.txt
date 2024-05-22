@@ -1,0 +1,7 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_signinwithgmail
+Click to //div[@class='profile-header-type css-1bvqxho']
+Selected DropDown #app-root > div > div > div > div.PRE_LOGIN_MORE_INFO.css-hen4pq > div.login-cont > div.css-10c5udf > div > span > svg > g > gSelected
+Enter value : #identifierId value :coderat9552312095@gmail.com
+Click to //span[@class='VfPpkd-vQzf8d' and text()='Next']

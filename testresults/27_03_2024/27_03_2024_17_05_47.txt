@@ -1,0 +1,19 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_addPriceDetails
+Enter value : //input[@type='tel'] value :9552312095
+Enter value : //input[@type='text'] value :Sandeep wagh
+Click to //div[@class='property-type-label' and text()='Apartment']
+Click to //div[@class='property-type-label' and text()='Apartment']
+Enter value : //input[@type='text'] value :Panchratna B Wing
+Selected DropDown //ul[@class='result-cont']/liSelected
+Click to //div[@class= 'apartment-type' and text()='2 BHK']
+Enter value : //*[@id='app-root']/div/div/section/div[2]/div[2]/div/div/div[1]/div[5]/div/input value :500
+Click to //span[text()='Unfurnished']
+Selected DropDown //i[@class='icon-checkbox']Check box selected
+Click to //button[@class='selfupload-cta-button css-1olr0sc']
+invalid element state
+  (Session info: MicrosoftEdge=122.0.2365.92)
+Test Case Failedinvalid element state
+  (Session info: MicrosoftEdge=122.0.2365.92)
+------------------------------------------------------------------

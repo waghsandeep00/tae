@@ -20,8 +20,11 @@ class HousingHomePage(BasePage):
         BasePage.page_has_loaded(self)
         return self
 
+    def checkTestomonialDescription(self):
+        return self.driver.find_element(By.XPATH, self.locator.TESTOMONIAL_DESCRIPTION).text
     def checkAlert(self):
         BasePage.isElementPresent(self, By.XPATH, self.locator)
+
     def clickToHowItWorks(self):
         BasePage.click(self, By.XPATH, self.locator.HOW_IT_WORKS)
         return self
@@ -30,8 +33,8 @@ class HousingHomePage(BasePage):
         BasePage.click(self, By.XPATH, self.locator.FAQS)
         return self
 
-    def checkTestomonialDescription(self):
-        return self.driver.find_element(By.XPATH, self.locator.TESTOMONIAL_DESCRIPTION).text
+    def verifymobile(self):
+        return self.driver.find_element(By.XPATH, self.locator.MOBILE).text
 
     def checkTestomonialCity(self):
         return self.driver.find_element(By.XPATH, self.locator.TESTIMOIAL_CITY).text

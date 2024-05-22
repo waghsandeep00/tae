@@ -1,0 +1,7 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_signinwithgmail
+Click to //div[@class='profile-header-type css-1bvqxho']
+element is not present
+Test Case Failedelement is not present
+------------------------------------------------------------------

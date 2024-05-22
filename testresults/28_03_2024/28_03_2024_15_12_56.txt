@@ -1,0 +1,6 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_verifyResidenceSell
+Click to //div[@class='toggle-label' and text()='Sell']
+Enter value : //input[@type='tel'] value :9552312095
+Enter value : //input[@type='text'] value :Sandeep wagh

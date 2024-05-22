@@ -1,0 +1,11 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_verifyresidence
+Submit to toggle-label
+Click to //*[@id='app-root']/div/div/div/div[2]/div/div[2]/div/div[2]/button
+Click to //div[@class='toggle-label'][text()='Commercial']
+Enter value : //input[@type='tel'] value :9212323232
+Enter value : //input[@type='text'] value :Admin1
+element is not present
+Test Case Failedelement is not present
+------------------------------------------------------------------

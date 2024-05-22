@@ -1,0 +1,9 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_PropertyDetailProgress
+Enter value : //input[@type='tel'] value :9552312095
+Enter value : //input[@type='text'] value :Sandeep wagh
+Test Case Failedelement is not present
+------------------------------------------------------------------
+Test Case Failedelement is not present
+------------------------------------------------------------------
