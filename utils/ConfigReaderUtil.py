@@ -31,7 +31,7 @@ class ConfigReaderUtil:
     '''
     @staticmethod
     def get_env_value(key_name):
-        return ConfigReaderUtil.config[ConfigReaderUtil.section_name][key_name]
+        #return ConfigReaderUtil.config[ConfigReaderUtil.section_name][key_name]
         try:
             value = ConfigReaderUtil.config[ConfigReaderUtil.section_name][key_name]
             return value

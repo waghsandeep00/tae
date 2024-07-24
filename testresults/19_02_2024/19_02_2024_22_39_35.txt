@@ -1,5 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_verifyprofile
-element click intercepted: Element is not clickable at point (952, 575)
-  (Session info: chrome=120.0.6099.225)

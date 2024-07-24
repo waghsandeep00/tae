@@ -1,0 +1,5 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_selectcity
+Click to //div[@class='input-container']
+Enter value : //div[@class='input-container']/div/input[@type='text'] value :mum

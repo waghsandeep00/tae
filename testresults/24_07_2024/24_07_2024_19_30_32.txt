@@ -1,0 +1,10 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_selectcity
+Click to //div[@class='input-container']
+Enter value : //div[@class='input-container']/div/input[@type='text'] value :mum
+Test Case Name : test_collectcity
+Click to //div[@class='input-container']
+Enter value : //div[@class='input-container']/div/input[@type='text'] value :mum
+Click to //div/input[@class='css-1s4ak33']
+Submit to //div/div/div[@class='css-lzczpu']

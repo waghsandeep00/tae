@@ -1,0 +1,8 @@
+Application details:https://seller.housing.com/
+------------------------------------------------------------------
+Test Case Name : test_searchcity
+invalid element state
+  (Session info: MicrosoftEdge=126.0.2592.113)
+Test Case Failedinvalid element state
+  (Session info: MicrosoftEdge=126.0.2592.113)
+------------------------------------------------------------------

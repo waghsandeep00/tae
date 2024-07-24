@@ -1,2 +1,0 @@
-setting up test_widgets_menu_list
-Completing test casetest_widgets_menu_list

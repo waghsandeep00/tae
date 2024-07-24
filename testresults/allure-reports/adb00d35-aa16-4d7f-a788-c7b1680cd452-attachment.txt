@@ -1,2 +1,0 @@
-setting up test_interactions_menu_list
-Completing test casetest_interactions_menu_list

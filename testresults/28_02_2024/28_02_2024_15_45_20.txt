@@ -1,7 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_verifyresidence
-Submit to toggle-label
-element is not present
-Test Case Failedelement is not present
-------------------------------------------------------------------

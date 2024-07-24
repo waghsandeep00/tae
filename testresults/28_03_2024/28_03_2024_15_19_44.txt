@@ -1,5 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_verifyCommercialSell
-Click to //div[@class='toggle-label'][text()='Commercial']
-Click to //div[@class='toggle-label' and text()='Sell']

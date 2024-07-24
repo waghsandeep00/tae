@@ -1,8 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_verifycommercial
-element click intercepted: Element <div class="toggle-label">...</div> is not clickable at point (973, 291). Other element would receive the click: <div class="modal-container rmc">...</div>
-  (Session info: chrome=121.0.6167.185)
-Test Case Failedelement click intercepted: Element <div class="toggle-label">...</div> is not clickable at point (973, 291). Other element would receive the click: <div class="modal-container rmc">...</div>
-  (Session info: chrome=121.0.6167.185)
-------------------------------------------------------------------

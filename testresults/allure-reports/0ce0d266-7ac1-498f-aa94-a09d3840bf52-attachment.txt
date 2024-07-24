@@ -1,2 +1,0 @@
-setting up test_helping_options
-Completing test casetest_helping_options

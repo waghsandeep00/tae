@@ -1,6 +1,5 @@
 import pytest
 from selenium.common.exceptions import WebDriverException
-
 from pages.housing_pages.housing_loginprofile_page import loginprofile
 from pages.housing_pages.login_page import LoginPage
 from tests.basetest import BaseTest
@@ -17,9 +16,9 @@ class Test_login(BaseTest):
             logPage.navigateToApplication(ConfigReaderUtil.get_env_value('baseUrl'))
             titledata = login_data()
             pagetitle = self.driver.title
-            print(pagetitle)
+            # print(pagetitle)
             assert titledata.test_pagetitle["Title"] in pagetitle
-            print("Title Verified")
+            # print("Title Verified")
 
         except WebDriverException as e:
             BaseTest.take_screenshot(self, e.msg)

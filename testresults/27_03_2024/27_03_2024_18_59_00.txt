@@ -1,7 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_signinwithgmail
-Click to //div[@class='profile-header-type css-1bvqxho']
-Test Case Failedjavascript error: arguments[0].click is not a function
-  (Session info: MicrosoftEdge=122.0.2365.92)
-------------------------------------------------------------------

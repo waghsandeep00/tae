@@ -35,3 +35,9 @@ class ResidencePageLocators:
     DATE = "//div[@class='pmu-saturday pmu-button' and text()='9']"
     SECURITYDEPOSIT = "//div[@class='toggle-label' and text()='1 month']"
 
+    DROPDOWNAARROW = "//div[@class='input-container']"
+    ENTERCITY = "//div[@class='input-container']/div/input[@type='text']"
+    SELECTCITY = "//div/ul/li[contains(text(), 'Navi Mumbai')]"
+    SEARCHENTER = "//div/input[@class='css-1s4ak33']"
+    CITYLIST = "//div/div/div[@class='css-lzczpu']"
+

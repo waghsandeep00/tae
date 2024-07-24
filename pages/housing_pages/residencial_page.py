@@ -42,6 +42,9 @@ class ResidentialPage(BasePage):
         return self
 
     def scrollbarprogress(self):
+        """
+
+        """
         wait = WebDriverWait(self.driver, 10)
         element = wait.until(EC.visibility_of_element_located(self.locator.SCROLL_BAR)).text
         return element
@@ -104,3 +107,29 @@ class ResidentialPage(BasePage):
     def clickSecurityDeposite(self):
         BasePage.click(self, By.XPATH, self.locator.SECURITYDEPOSIT)
         return self
+
+    def clicdropdown(self, ):
+        BasePage.click(self, By.XPATH, self.locator.DROPDOWNAARROW)
+        return self
+
+    def entercity(self, city):
+        BasePage.entertext(self, By.XPATH, self.locator.ENTERCITY, city)
+        return self
+
+    def selectcity(self):
+        BasePage.isElementPresent(self, By.XPATH, self.locator.SELECTCITY)
+        return self
+
+    def entersearch(self):
+        BasePage.click(self, By.XPATH, self.locator.SEARCHENTER)
+        return self
+
+    def citydropdown(self, city):
+        BasePage.selectdropdownvaluebytext(self, By.XPATH, self.locator.CITYLIST, city)
+        return self
+
+    def collectciti(self, city):
+        BasePage.collectcities(self, By.XPATH, self.locator.CITYLIST, city)
+        return self
+
+

@@ -1,4 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_testmonial
-gettext to //div[contains(@class, 'css-175lis2') and .//text()='I bought the premium plus package to sell my property. I got so many buyers that I could easily finalize the deal at high profit']

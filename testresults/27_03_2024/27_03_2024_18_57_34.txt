@@ -1,9 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_signinwithgmail
-Click to //div[@class='profile-header-type css-1bvqxho']
-element click intercepted: Element <g fill-rule="nonzero">...</g> is not clickable at point (871, 475). Other element would receive the click: <rect width="99" height="39" x=".5" y=".5" fill="#FFF" stroke="#B4B4B4" rx="19.5"></rect>
-  (Session info: MicrosoftEdge=122.0.2365.92)
-Test Case Failedelement click intercepted: Element <g fill-rule="nonzero">...</g> is not clickable at point (871, 475). Other element would receive the click: <rect width="99" height="39" x=".5" y=".5" fill="#FFF" stroke="#B4B4B4" rx="19.5"></rect>
-  (Session info: MicrosoftEdge=122.0.2365.92)
-------------------------------------------------------------------

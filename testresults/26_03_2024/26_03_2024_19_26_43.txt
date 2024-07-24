@@ -1,9 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_addPropertyDetails
-Enter value : //input[@type='tel'] value :9552312095
-Enter value : //input[@type='text'] value :Sandeep wagh
-Click to //div[@class='property-type-label' and text()='Apartment']
-Click to //div[@class='property-type-label' and text()='Apartment']
-Enter value : //*[@id='app-root']/div/div/section/div[2]/div[2]/div/div/div[1]/div[3]/div/div[1]/input value :Pune Cantonment, Pune, Pune District, Maharashtra
-Selected DropDown //*[@id='app-root']/div/div/section/div[2]/div[2]/div/div/div[1]/div[3]/div/div[1]/ul/li[1]Selected

@@ -1,8 +1,0 @@
-Application details:https://seller.housing.com/
-------------------------------------------------------------------
-Test Case Name : test_faqs
-element click intercepted: Element <button class="css-e2kocx">...</button> is not clickable at point (502, 486). Other element would receive the click: <div class="login-cont">...</div>
-  (Session info: chrome=120.0.6099.225)
-Test Case Failedelement click intercepted: Element <button class="css-e2kocx">...</button> is not clickable at point (502, 486). Other element would receive the click: <div class="login-cont">...</div>
-  (Session info: chrome=120.0.6099.225)
-------------------------------------------------------------------

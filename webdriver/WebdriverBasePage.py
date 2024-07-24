@@ -4,6 +4,7 @@ import pytest
 import selenium.webdriver.support.wait as wait
 from selenium.common.exceptions import WebDriverException, ElementNotVisibleException, NoSuchElementException
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common import actions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import Select
@@ -25,7 +26,7 @@ class WebdriverBasePage(object):
         self.driver.get(url)
 
     def elementWaitCondition(self, byelement, byindentifier):
-        self.web_driver_wait = wait.WebDriverWait(self.driver, 30)
+        self.web_driver_wait = wait.WebDriverWait(self.driver, 40)
         self.web_driver_wait.until(
             expected_conditions.presence_of_element_located((byelement, byindentifier)), "element is not present")
 
@@ -71,6 +72,21 @@ class WebdriverBasePage(object):
             element.click()
             LoggerClass.writeFile(self.filepath,
                                   "\nClick to " + byindentifier)
+        except WebDriverException as e:
+            LoggerClass.writeFile(self.filepath, "\n" + e.msg)
+            raise e
+
+    def collectcities(self, byelement, byindentifier, match):
+        try:
+            self.elementWaitCondition(byelement, byindentifier)
+            element = self.driver.find_elements(by=byelement, value=byindentifier)
+            for ele in element:
+                print("Found roles:", ele.text)
+                if match in ele.text:
+                    ele.click()
+                    break
+            LoggerClass.writeFile(self.filepath,
+                              "\nSubmit to " + byindentifier)
         except WebDriverException as e:
             LoggerClass.writeFile(self.filepath, "\n" + e.msg)
             raise e
@@ -165,6 +181,7 @@ class WebdriverBasePage(object):
         try:
             self.elementWaitCondition(byelement, byindentifier)
             element = self.driver.find_element(by=byelement, value=byindentifier)
+            # actions.move_to_element(element).click().perform()
             element.click()
 
         except WebDriverException:
